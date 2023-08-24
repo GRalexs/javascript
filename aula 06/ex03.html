@@ -18,12 +18,11 @@
     <p>Feito</p>
 
     <script>
-        //Apresenta um alerta na tela
-        window.alert('Minha primeira mensagem de alerta')
-        //Apresenta um check de ok ou cancelar 
-        window.confirm('Está gostando de JS?!')
-        //Cria um campo para preencher
-        window.prompt('Qual seu nome?')
+        var numero1 = Number.parseFloat(window.prompt('Digite um número'))
+        var numero2 = Number.parseFloat(window.prompt('Digite o segundo número'))
+        
+        var s = numero1 + numero2
+        window.alert(`A soma dos valores ${numero1} e ${numero2} é igual a${s}!!`)
     </script>
 
 </body>
